@@ -6,7 +6,10 @@ body{ background:url(images/background.png); margin:0;
  }
 
 
-.a{background:#fff;
+.a{
+	height:auto;
+	overflow: auto;
+	background:#fff;
 	margin:auto;
 	margin-top:.5rem;
 	box-shadow:#999 0px 0px 8px;
@@ -37,7 +40,7 @@ body{ background:url(images/background.png); margin:0;
 /*.ls{  border-radius:5px; background: #4A95C0; color:#fff; }*/
 
 
-.right{ float:left; width:8.5rem; box-sizing:border-box; padding-left:0.45rem;border-left:1px solid #ddd;display: block;border-bottom: 100px solid white;}
+.right{ height:auto;display: inline-block;float:left; width:8.5rem; box-sizing:border-box; padding-left:0.45rem;border-left:1px solid #ddd;border-bottom: 100px solid white;}
 
 
 
@@ -60,5 +63,5 @@ body{ background:url(images/background.png); margin:0;
 
 #smore{width:2.6rem; margin:auto; height:.5rem; margin-top:.4rem; cursor:pointer;  border:1px solid #ddd; border-radius:8px; line-height:.5rem; text-align:center; font-size:.22rem; color:#999; position:relative;left:35%;}
 .dpp{height:1.15rem; width:100%; margin-top:.35rem; display:none;}
-
+.clear {clear: both;}
 
