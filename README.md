@@ -1,0 +1,2 @@
+# Algolia
+Coding challenge

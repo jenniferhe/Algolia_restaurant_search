@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC>
+<head>
+	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<title>Restaurant Locator - by Algolia</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+	
+
+	<div class="a">
+
+		<div class="head">
+		<input type="text" autocomplete="off" id="search-box" placeholder="Search for Restaurants by Name, Cuisine, Location" />
+		</div>
+
+
+		<div class="left">
+
+		<div class="l1" id="Cuisine" onclick="uncheck(this.id)"style="margin-top:0.4rem; margin-bottom:0.2rem;">Cuisine/Food Type</div>
+
+		<div class="l2" id="Italian" onclick="leftClick(this.id)">Italian <span>70</span></div>
+		<div class="l2" id="American"  onclick="leftClick(this.id)">American <span>47</span></div>
+		<div class="l2" id="Californian" onclick="leftClick(this.id)">Californian <span>42</span></div>
+		<div class="l2" id="French" onclick="leftClick(this.id)">French<span>31</span></div>
+		<div class="l2" id="Seafood" onclick="leftClick(this.id)">Seafood <span>29</span></div>
+		<div class="l2" id="Japanese" onclick="leftClick(this.id)">Japanese <span>27</span></div>
+		<div class="l2" id="Indian" onclick="leftClick(this.id)">Indian<span>19</span></div>
+
+
+
+		<div class="l1"  id="Rating" onclick="uncheck(this.id)" style="margin-top:0.4rem; margin-bottom:0.2rem;">Rating</div>
+
+		<div class="l2" id="star5" onclick="leftClick2(this.id)"><img height="26" src="images/star5.png"/><span>70</span></div>
+		<div class="l2" id="star4" onclick="leftClick2(this.id)"><img height="26"  src="images/star4.png"/><span>70</span></div>
+		<div class="l2" id="star3" onclick="leftClick2(this.id)"><img height="26"  src="images/star3.png"/><span>70</span></div>
+		<div class="l2" id="star2" onclick="leftClick2(this.id)"><img height="26"  src="images/star2.png"/><span>70</span></div>
+		<div class="l2" id="star1" onclick="leftClick2(this.id)"><img height="26"  src="images/star1.png"/><span>70</span></div>
+		<div class="l2" id="star0" onclick="leftClick2(this.id)"><img height="26"  src="images/star0.png"/><span>70</span></div>
+
+		<div class="l1" id="Payment" onclick="uncheck(this.id)" style="margin-top:0.4rem; margin-bottom:0.2rem;">Payment Options</div>
+		<div class="l2" id="AMEX" onclick="leftClick3(this.id)">American Express <span>70</span></div>
+		<div class="l2" id="Visa" onclick="leftClick3(this.id)">Visa<span>47</span></div>
+		<div class="l2" id="Discover" onclick="leftClick3(this.id)">Discover <span>42</span></div>
+		<div class="l2" id="MasterCard" onclick="leftClick3(this.id)">MasterCard<span>31</span></div>
+
+
+		</div>
+
+
+		<div class='right'>
+			<div id="stats">
+			</div>
+			
+			<div class='dpr'>
+				<ul id=container style="list-style: none;">
+				</ul>
+				<button id="smore" onclick="ycdp()" >Show More</button>
+			</div>
+			<div class="clear"></div>
+            	
+		</div>
+
+	</div>	
+	<script src="https://cdn.jsdelivr.net/g/algoliasearch@3(algoliasearchLite.min.js),algoliasearch.helper@2"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+	<script  src="js/index.js"></script>	
+
+</body>
+</html>
