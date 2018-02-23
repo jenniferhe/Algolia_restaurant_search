@@ -7,6 +7,6 @@ Algolia's hosted search API helps product builders create lightning-fast, highly
 - Leverage the user’s location to show restaurants closer to them higher in the results—with a fallback if they dont’t allow for geolocation permissions in the browser
 
 ```
-![What it looks like](https://github.com/jenniferhe/algolia_final/raw/master/test1.gif)
+![What it looks like](https://raw.githubusercontent.com/jenniferhe/algolia_final/master/test1.gif)
 ```
 
